@@ -13,7 +13,7 @@
   "dependencies": {},
   "scripts": {
     "start": "solid-scripts start",
-    "build": "solid-scripts build",
+    "build": "solid-scripts --outDir docs build",
     "test": "solid-scripts test",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
